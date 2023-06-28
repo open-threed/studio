@@ -147,7 +147,7 @@
   "Environment": {
     "editable": false,
     "inject": ["OBJECT"],
-    "preset": "sunset" 
+    "environment": "sunset"
   },
   "Sky": {
     "editable": false,

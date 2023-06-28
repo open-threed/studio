@@ -45,6 +45,28 @@ export default function Properties() {
       hideOptions={[
         'material.',
       ]}
+      selects={{
+        environment: [
+          'apartment',
+          'bridge',
+          'city',
+          'dawn',
+          'esplanade',
+          'forest',
+          'hall',
+          'lab',
+          'lobby',
+          'night',
+          'park',
+          'sky',
+          'studio',
+          'sunrise',
+          'sunset',
+          'venice',
+          'warehouse',
+          'workshop'
+        ]
+      }}
     />
   )
 }

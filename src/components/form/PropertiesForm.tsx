@@ -98,13 +98,15 @@ function BasePropertiesForm({
           onValueChange={(e) => onChange(e)}
           value={item.value}
         >
-          <SelectTrigger className="w-full">
+          <SelectTrigger className="w-full capitalize">
             <SelectValue placeholder="Select a file" />
           </SelectTrigger>
           <SelectContent>
             <SelectGroup>
-              {selects[item.id].map(({value, label}, index:number) => (
-                <SelectItem key={index} value={value}>{label}</SelectItem>
+              {selects[item.id].map((option, index:number) => (
+                <SelectItem key={index} value={option} className="capitalize">
+                  {option}
+                </SelectItem>
               ))}
             </SelectGroup>
           </SelectContent>

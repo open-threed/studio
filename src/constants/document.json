@@ -1,8 +1,8 @@
 {
   "title": "",
   "description": "",
-  "helpers": false,
-  "axes": true,
+  "helpers": true,
+  "axes": false,
   "orbitalControls": {
     "enableDamping": true,
     "enablePan": true,
