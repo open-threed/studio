@@ -1,0 +1,60 @@
+.directory {
+  user-select: none;
+  border-radius: 0.4em;
+  position: relative;
+  width: 100%;
+}
+
+li.tree-branch-wrapper {
+  width: 100%;
+}
+.directory .tree,
+.directory .tree-node,
+.directory .tree-node__branch {
+  display: flex !important;
+}
+.directory .tree,
+.directory .tree-node,
+.directory .tree-node-group {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.directory .tree-branch-wrapper,
+.directory .tree-node__leaf {
+  outline: none;
+  outline: none;
+}
+
+.directory .tree-node {
+  cursor: pointer;
+  border-radius: 3px;
+  margin-bottom: 2px;
+  border: 1px solid transparent;
+}
+
+.directory .tree-node:hover {
+  border: 1px solid #0e1629;
+
+}
+
+.directory .tree .tree-node--focused {
+  border: 1px solid #0e1629;
+
+}
+
+.directory .tree .tree-node--selected {
+  background: #0e1629;
+}
+
+.directory .tree-node__branch {
+  display: block;
+}
+
+.directory .icon {
+  vertical-align: middle;
+  padding-right: 5px;
+  margin-left: 10px;
+}

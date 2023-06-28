@@ -1,0 +1,60 @@
+{
+  "meshNormalMaterial": {
+    "color": "#ffffff"
+  },
+  "meshDistortMaterial": {},
+  "meshReflectorMaterial": {
+    "blur": [0, 0],
+    "mixBlur": 0,
+    "mixStrength": 1,
+    "mixContrast": 1,
+    "resolution": 256,
+    "mirror": 0,
+    "depthScale": 0,
+    "minDepthThreshold": 0.9,
+    "maxDepthThreshold": 1,
+    "depthToBlurRatioBias": 0.25,
+    "distortion": 1,
+    "distortionMap": null,
+    "debug": 0,
+    "reflectorOffset": 0.2,
+    "roughness": 0,
+    "color": "#fafafa",
+    "metalness": 0.5
+  },
+  "meshRefractionMaterial": {},
+  "meshTransmissionMaterial": {},
+  "meshWobbleMaterial": {},
+  "meshDiscardMaterial": {},
+  "pointMaterial": {},
+  "shaderMaterial": {},
+  "lineBasicMaterial": {},
+  "lineDashedMaterial": {},
+  "material": {},
+  "meshBasicMaterial": {
+    "aoMapIntensity": 1,
+    "color": "#ffffff",
+    "fog": true,
+    "lightMapIntensity": 1,
+    "reflectivity": 1,
+    "refractionRatio": 0.98,
+    "wireframe": false,
+    "wireframeLinecap": "round",
+    "wireframeLinejoin": "round",
+    "wireframeLinewidth": 1
+  },
+  "meshDepthMaterial": {},
+  "meshDistanceMaterial": {},
+  "meshLambertMaterial": {},
+  "meshMatcapMaterial": {},
+  "meshPhongMaterial": {},
+  "meshPhysicalMaterial": {},
+  "meshStandardMaterial": {
+    "color": "#ffffff"
+  },
+  "meshToonMaterial": {},
+  "pointsMaterial": {},
+  "rawShaderMaterial": {},
+  "shadowMaterial": {},
+  "spriteMaterial": {}
+}

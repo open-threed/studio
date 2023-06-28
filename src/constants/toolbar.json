@@ -1,0 +1,368 @@
+{
+  "graph": [
+    {
+      "id": "create_node",
+      "label": "Create Node",
+      "icon": "IconPlus",
+      "options": [
+        {
+          "id": "on_mount",
+          "label": "onMount",
+          "icon": "IconNumber1"
+        },
+        {
+          "id": "on_click",
+          "label": "onClick",
+          "icon": "IconNumber2"
+        },
+        {
+          "id": "on_pointer_over",
+          "label": "onPointerOver",
+          "icon": "IconNumber3"
+        },
+        {
+          "id": "show_notification",
+          "label": "showNotification",
+          "icon": "IconNumber4"
+        },
+        {
+          "id": "show_console_log",
+          "label": "showConsoleLog",
+          "icon": "IconNumber5"
+        },
+        {
+          "id": "show_alert",
+          "label": "showAlert",
+          "icon": "IconNumber6"
+        },
+        {
+          "id": "update_element",
+          "label": "updateElement",
+          "icon": "IconNumber7"
+        },
+        {
+          "id": "update_scene",
+          "label": "updateScene",
+          "icon": "IconNumber8"
+        }
+      ]
+    },
+    {
+      "id": "zoom_in",
+      "label": "Zoom In",
+      "icon": "IconZoomIn"
+    },
+    {
+      "id": "zoom_out",
+      "label": "Zoom Out",
+      "icon": "IconZoomOut"
+    },
+    {
+      "id": "fitview",
+      "label": "FitView",
+      "icon": "IconSitemap"
+    },
+    {
+      "id": "toggle_lock",
+      "label": "Toggle Lock",
+      "icon": "IconLock"
+    }
+  ],
+  "bottom": [
+    {
+      "id": "log",
+      "label": "Log",
+      "icon": "IconTerminal2"
+    },
+    {
+      "id": "previus_change",
+      "label": "Previus change",
+      "icon": "IconArrowBack"
+    },
+    {
+      "id": "next_change",
+      "label": "Next change",
+      "icon": "IconArrowForward"
+    },
+    {
+      "id": "studio",
+      "label": "Studio",
+      "icon": "IconMovie"
+    }
+  ],
+  "code": [
+    {
+      "id": "code",
+      "label": "Code",
+      "icon": "IconBox"
+    }
+  ],
+  "left": [
+    {
+      "id": "select",
+      "label": "Select",
+      "icon": "IconPointer"
+    },
+    {
+      "id": "move",
+      "label": "Move",
+      "icon": "IconArrowsMove"
+    },
+    {
+      "id": "rotate",
+      "label": "Rotate",
+      "icon": "IconRotate360"
+    },
+    {
+      "id": "scale",
+      "label": "Scale",
+      "icon": "IconResize"
+    },
+    {
+      "id": "geometry",
+      "label": "Geometry",
+      "icon": "IconTriangleSquareCircle",
+      "options": [
+        {
+          "id": "plane",
+          "label": "Plane",
+          "icon": "IconSquare"
+        },
+        {
+          "id": "sphere",
+          "label": "Sphere",
+          "icon": "IconInnerShadowRight"
+        },
+        {
+          "id": "box",
+          "label": "Box",
+          "icon": "IconBox"
+        },
+        {
+          "id": "capsule",
+          "label": "Capsule",
+          "icon": "IconCapsule"
+        },
+        {
+          "id": "circle",
+          "label": "Circle",
+          "icon": "IconCircleFilled"
+        },
+        {
+          "id": "cone",
+          "label": "Cone",
+          "icon": "IconCone",
+          "disable": true
+        },
+        {
+          "id": "cylinder",
+          "label": "Cylinder",
+          "icon": "IconCylinder"
+        },
+        {
+          "id": "dodecahedron",
+          "label": "Dodecahedron",
+          "icon": ""
+        },
+        {
+          "id": "extrude",
+          "label": "Extrude",
+          "icon": "",
+          "disable": true
+        },
+        {
+          "id": "icosahedron",
+          "label": "Icosahedron",
+          "icon": ""
+        },
+        {
+          "id": "lathe",
+          "label": "Lathe",
+          "icon": "",
+          "disable": true
+        },
+        {
+          "id": "octahedron",
+          "label": "Octahedron",
+          "icon": "IconOctahedron"
+        },
+        {
+          "id": "ring",
+          "label": "Ring",
+          "icon": "IconLifebuoy"
+        },
+        {
+          "id": "tetrahedron",
+          "label": "Tetrahedron",
+          "icon": ""
+        },
+        {
+          "id": "torus",
+          "label": "Torus",
+          "icon": ""
+        },
+        {
+          "id": "torusKnot",
+          "label": "TorusKnot",
+          "icon": ""
+        },
+        {
+          "id": "tube",
+          "label": "Tube",
+          "icon": "",
+          "disable": true
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "label": "Media",
+      "icon": "IconMusic",
+      "options": [
+        {
+          "id": "positional_audio",
+          "label": "Positional Audio",
+          "icon": "IconMusic"
+        },
+        {
+          "id": "image",
+          "label": "Image",
+          "icon": "IconPhoto"
+        },
+        {
+          "id": "svg",
+          "label": "Svg",
+          "icon": "IconFileVector"
+        },
+        {
+          "id": "browser",
+          "label": "Browser",
+          "icon": "IconBrowser"
+        }
+      ]
+    },
+    {
+      "id": "typhography",
+      "label": "Typhography",
+      "icon": "IconTextRecognition",
+      "options": [
+        {
+          "id": "text",
+          "label": "Text",
+          "icon": "IconTextRecognition"
+        },
+        {
+          "id": "text_3d",
+          "label": "Text 3D",
+          "icon": "IconTypography"
+        }
+      ]
+    },
+    {
+      "id": "environments",
+      "label": "Environments",
+      "icon": "IconWorld",
+      "options": [
+        {
+          "id": "environment",
+          "label": "Environment",
+          "icon": "IconWorld"
+        },
+        {
+          "id": "stars",
+          "label": "Stars",
+          "icon": "IconSparkles"
+        },
+        {
+          "id": "sky",
+          "label": "Sky",
+          "icon": "IconSun"
+        }
+      ]
+    },
+    {
+      "id": "lights",
+      "label": "Lights",
+      "icon": "IconBulb",
+      "options": [
+        {
+          "id": "ambient_light",
+          "label": "Ambient Light",
+          "icon": "IconBulb"
+        },
+        {
+          "id": "point_light",
+          "label": "Point Light",
+          "icon": "IconLamp2"
+        },
+        {
+          "id": "directional_light",
+          "label": "Directional Light",
+          "icon": "IconLamp"
+        },
+        {
+          "id": "hemisphere_light",
+          "label": "Hemisphere Light",
+          "icon": "IconFlame"
+        },
+        {
+          "id": "spot_light",
+          "label": "Spot Light",
+          "icon": "IconLighter"
+        }
+      ]
+    },
+    {
+      "id": "hub",
+      "label": "Hub",
+      "icon": "IconPackages"
+    }
+  ],
+  "right": [
+    {
+      "id": "properties",
+      "label": "Properties",
+      "icon": "IconInfoCircle"
+    },
+    {
+      "id": "layers",
+      "label": "Layers",
+      "icon": "IconBoxMultiple"
+    },
+    {
+      "id": "history",
+      "label": "History",
+      "icon": "IconHistory"
+    }
+  ],
+  "top": [
+    {
+      "id": "play",
+      "label": "Play",
+      "icon": "IconPlayerPlay"
+    },
+    {
+      "id": "toggle_left_toolbar",
+      "label": "Toggle left toolbar",
+      "icon": "IconLayoutSidebar"
+    },
+    {
+      "id": "toggle_bottom_toolbar",
+      "label": "Toggle bottom toolbar",
+      "icon": "IconLayoutNavbar",
+      "style": {
+        "transform": "rotate(180deg)"
+      }
+    },
+    {
+      "id": "toggle_right_toolbar",
+      "label": "Toggle right toolbar",
+      "icon": "IconLayoutSidebarRight"
+    },
+    {
+      "id": "fullscreen",
+      "label": "Fullscreen",
+      "icon": "IconMaximize"
+    }
+  ]
+}

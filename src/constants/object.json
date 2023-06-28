@@ -1,0 +1,16 @@
+{
+  "castShadow": false,
+  "frustumCulled": true,
+  "isObject3D": true,
+  "matrixAutoUpdate": true,
+  "matrixWorldAutoUpdate": true,
+  "matrixWorldNeedsUpdate": false,
+  "name": "",
+  "position": [0,0,0],
+  "receiveShadow": false,
+  "renderOrder": 0,
+  "rotation": [0,0,0],
+  "scale": [1,1,1],
+  "up": [0,0,0],
+  "visible": true
+}

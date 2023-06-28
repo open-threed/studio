@@ -1,0 +1,193 @@
+{
+  "onMount": [
+    {
+      "id": "-element",
+      "label": "element",
+      "input": false,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-action",
+      "label": "action",
+      "input": false,
+      "output": true,
+      "value": null
+    }
+  ],
+  "onClick": [
+    {
+      "id": "-element",
+      "label": "element",
+      "input": false,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-action",
+      "label": "action",
+      "input": false,
+      "output": true,
+      "value": null
+    }
+  ],
+  "onPointerOver": [
+    {
+      "id": "-element",
+      "label": "element",
+      "input": false,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-action",
+      "label": "action",
+      "input": false,
+      "output": true,
+      "value": null
+    }
+  ],
+  "showNotification": [
+    {
+      "id": "-source",
+      "label": "source",
+      "input": true,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-title",
+      "label": "title",
+      "input": false,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-message",
+      "label": "message",
+      "input": false,
+      "output": false,
+      "value": null
+    }
+  ],
+  "showConsoleLog": [
+    {
+      "id": "-source",
+      "label": "source",
+      "input": true,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-title",
+      "label": "title",
+      "input": false,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-message",
+      "label": "message",
+      "input": false,
+      "output": false,
+      "value": null
+    }
+  ],
+  "showAlert": [
+    {
+      "id": "-source",
+      "label": "source",
+      "input": true,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-title",
+      "label": "title",
+      "input": false,
+      "output": false,
+      "value": null
+    }
+  ],
+  "updateElement": [
+    {
+      "id": "-source",
+      "label": "source",
+      "input": true,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-element",
+      "label": "element",
+      "input": false,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-position",
+      "label": "position",
+      "input": false,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-rotation",
+      "label": "rotation",
+      "input": false,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-scale",
+      "label": "scale",
+      "input": false,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-action",
+      "label": "action",
+      "input": false,
+      "output": true,
+      "value": null
+    }
+  ],
+  "updateScene": [
+    {
+      "id": "-source",
+      "label": "source",
+      "input": true,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-position",
+      "label": "position",
+      "input": false,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-rotation",
+      "label": "rotation",
+      "input": false,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-scale",
+      "label": "scale",
+      "input": false,
+      "output": false,
+      "value": null
+    },
+    {
+      "id": "-action",
+      "label": "action",
+      "input": false,
+      "output": true,
+      "value": null
+    }
+  ]
+}

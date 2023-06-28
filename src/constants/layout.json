@@ -1,0 +1,33 @@
+{
+  "modal": {
+    "open": {
+      "settings": false,
+      "hub": false,
+      "newDocument": false,
+      "export": false,
+      "commands": false,
+      "terms": false,
+      "codeEditor": false,
+      "newFile": false,
+      "search": false
+    }
+  },
+  "toolbar": {
+    "top": {
+      "visible": true,
+      "expanded": false
+    },
+    "right": {
+      "visible": true,
+      "expanded": false
+    },
+    "bottom": {
+      "visible": true,
+      "expanded": false
+    },
+    "left": {
+      "visible": true,
+      "expanded": true
+    }
+  }
+}

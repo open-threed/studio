@@ -1,0 +1,45 @@
+{
+  "title": "",
+  "description": "",
+  "helpers": false,
+  "axes": true,
+  "orbitalControls": {
+    "enableDamping": true,
+    "enablePan": true,
+    "enableRotate": true,
+    "enableZoom": true,
+    "reverseOrbit": false,
+    "makeDefault": true,
+    "enabled": true,
+    "minPolarAngle": 0,
+    "screenSpacePanning": false,
+    "autoRotate": false,
+    "regress": false
+  },
+  "canvas": {
+    "gl": {},
+    "camera": {
+      "fov": 75,
+      "near": 0.1,
+      "far": 1000,
+      "position": [8, 8.5, 8]
+    },
+    "scene": {},
+    "shadows": false,
+    "raycaster": {},
+    "frameloop": "always",
+    "resize": {
+      "scroll": true,
+      "debounce": {
+        "scroll": 50,
+        "resize": 0
+        }
+      },
+    "orthographic": false,
+    "dpr": [1, 2],
+    "legacy": false,
+    "linear": false,
+    "eventPrefix": "offset",
+    "flat": false
+  }
+}

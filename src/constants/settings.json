@@ -1,0 +1,34 @@
+{
+  "theme": "dark",
+  "main": "view",
+  "autoSave": true,
+  "minimalist": true,
+  "performanceMonitor": {
+    "enabled": false,
+    "logsPerSecond": 10,
+    "antialias": true,
+    "overClock": false,
+    "deepAnalyze": false,
+    "showGraph": true,
+    "minimal": false,
+    "customData": {
+      "value": 0,
+      "name": "",
+      "round": 2,
+      "info": ""
+    },
+    "matrixUpdate": false,
+    "chart": {
+      "hz": 60,
+      "length": 120
+    },
+    "colorBlind": false,
+    "className": "stats_panel",
+    "style": {},
+    "position": "bottom-left"
+  },
+  "tool": {
+    "move": "translate",
+    "selectGroup": true
+  }
+}

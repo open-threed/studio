@@ -1,0 +1,43 @@
+.sectionHorizontal {
+  height:40px;
+  overflow: hidden;
+}
+
+.sectionVertical {
+  width: 40px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.sectionVertical.opened {
+  width: 250px;
+}
+
+.sectionVertical.opened.big {
+  width: 350px;
+}
+
+.sectionWrap {
+  width: 100vw;
+  height: 100vh;
+  background-color: #222;
+  overflow: hidden;
+}
+
+.sectionContent {
+  overflow: hidden;
+  margin-top: -1px;
+}
+
+.sectionMiddle {
+  background-color: black;
+  display: inline-block;
+  overflow: hidden;
+  /* border: solid 0.5px #222; */
+}
+
+.playerScreen {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Show All Commands",
+    "data": ["⇧","⌘","P"]
+  },
+  {
+    "label": "Access the Files",
+    "data": ["⌘","P"]
+  },
+  {
+    "label": "Find in Archives",
+    "data": ["⇧","⌘","F"]
+  },
+  {
+    "label": "Start Debugging",
+    "data": ["F5"]
+  },
+  {
+    "label": "Enable/Disable Terminal",
+    "data": ["ˆ","`"]
+  }
+]
