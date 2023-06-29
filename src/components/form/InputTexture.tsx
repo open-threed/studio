@@ -32,6 +32,15 @@ export default function InputTexture() {
           <ScrollArea className="h-[300px] w-[300px] p-4">
             <div>
               <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <div className={`p-2 text-center border rounded-sm cursor-pointer bg-cover`}
+                    onClick={() => handleChange('none')}
+                    style={{
+                      borderColor: current.texture !== 'none' ?'transparent':'white'
+                    }}>
+                    <p className="text-xs mt-4 bg-black">none</p>
+                  </div>
+                </div>
                 {CONSTANTS.textures.map((item:string) => (
                   <div key={item}>
                     <div className={`p-2 text-center border rounded-sm cursor-pointer bg-cover`}

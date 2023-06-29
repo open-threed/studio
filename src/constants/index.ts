@@ -24,7 +24,7 @@ const jsonMaterials: JsonMaterialsType = materials
 const material = {
   material_type: key,
   material: jsonMaterials[key],
-  texture: textures[0]
+  texture: 'none'
 }
 
 const elements = processElements(baseElements, {

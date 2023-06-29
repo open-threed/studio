@@ -40,7 +40,9 @@ type MeshMaterialProps = {
 export default function MeshMaterial({
   name, material, texture
 }: MeshMaterialProps) {
-  const map = useTexture(`${CONSTANTS.cdn}/textures/wood_board/${texture}.jpg`)
+  const hasTexture = texture !== 'none'
+  const textureUrl = !hasTexture ? '/img/none-texture.jpg' : `${CONSTANTS.cdn}/textures/wood_board/${texture}.jpg`
+  const map = useTexture(textureUrl)
 
   const Comp = materialz[name]
   return (
