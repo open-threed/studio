@@ -1,4 +1,4 @@
-# TrheeD Studio
+# ThreeD Studio
 Build truly beautiful experiences on the web!
 
 ## Project
