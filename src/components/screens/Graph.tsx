@@ -118,7 +118,7 @@ function Square(props: NodeProps) {
 
   return (
     <div className={`bg-black border ${props.selected ? 'border-gray-500 shadow-md' : ''} text-white rounded-sm cursor-default transition-all `}>
-      <div className={`py-1 px-2 text-gray-400 border ${props.selected ? 'border-gray-500 shadow-md' : ''} ${graphLock ? 'cursor-default' : 'cursor-move ' + props.dragHandle?.replace(/^./, "")}`}>
+      <div className={`py-1 px-2 text-gray-400 border-b ${props.selected ? 'border-gray-500 shadow-md' : ''} ${graphLock ? 'cursor-default' : 'cursor-move ' + props.dragHandle?.replace(/^./, "")}`}>
         <div className="flex justify-between items-center">
           <p className="text-sm">
             {props.data.label}
@@ -160,9 +160,9 @@ function Square(props: NodeProps) {
                 <p className="text-sm w-full h-[20px] overflow-hidden text-right">
                  {item.label} 
                 </p>
-                <>
+                <div className="w-[257px]">
                   <Badge color="gray" variant="outline" >with props</Badge>
-                </>
+                </div>
               </div>
             )
           } else if(item.output) {
@@ -171,7 +171,7 @@ function Square(props: NodeProps) {
                 <p className="text-sm w-full h-[20px] overflow-hidden text-right">
                  {item.label} 
                 </p>
-                <div className="w-[157px]">
+                <div className="w-[257px]">
                 <Select
                   disabled={graphLock}
                   onValueChange={(e) => console.log(e)}
@@ -198,7 +198,7 @@ function Square(props: NodeProps) {
                  {item.label} 
                 </p>
                 {item.label === 'element' ? (
-                  <div className="w-[157px]">
+                  <div className="w-[257px]">
                   <Select
                     disabled={graphLock}
                     onValueChange={(e) => updateNodeField('element', e)}
@@ -217,7 +217,7 @@ function Square(props: NodeProps) {
                   </Select>
                   </div>
                 ): (
-                  <div className="w-[157px]">
+                  <div className="w-[257px]">
                     <Input
                       value={item.value || ''}
                       disabled={graphLock}
