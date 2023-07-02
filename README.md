@@ -39,6 +39,10 @@ What really helped us.
 ## Contribute
 Feel free to contribute or inspire yourself to build something out of it: [threed.world/contribute](http://threed.world/contribute)
 
+### Dev environment
+- [dev.threed.world](http://dev.threed.world)
+- [develop-threed.vercel.app](https://studio-threed-world-git-develop-lifercode.vercel.app)
+
 ## Links
 
 - [threed.world](http://threed.world)
