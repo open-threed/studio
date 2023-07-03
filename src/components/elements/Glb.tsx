@@ -7,7 +7,9 @@ import { ElementProps, useGLTFType } from "../../types"
 export default function Glb(props: ElementProps) {
   const {handleRun, onPointerOver} = useComponentFunctions(props)
 
-  const { nodes }:useGLTFType = useGLTF(`${CONSTANTS.cdn}/models/${props.file}/${props.file}.glb`)
+  const modelUrl = props.file.includes('http') ? props.file : `${CONSTANTS.cdn}/models/${props.file}/${props.file}.glb`
+
+  const { nodes }:useGLTFType = useGLTF(modelUrl)
   const list = Object.entries(nodes)
 
   return (
