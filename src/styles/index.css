@@ -300,3 +300,7 @@ button {
 @keyframes rotate{
   to{ transform: rotate(360deg); }
 }
+
+.model-thumb:hover .model-thumb-label {
+  opacity: 0.8;
+}

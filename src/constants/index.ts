@@ -66,11 +66,18 @@ type Blueprint = {
   updateScene: BlueprintFunction[]
 }
 
+export type ModelType = {
+  id: string
+  name: string
+  file: string
+}
+
 export type DocumentType = {
   title: string,
   description: string,
   helpers: boolean,
   axes: boolean,
+  customModels: ModelType[],
   orbitalControls: {
     enableDamping: boolean,
     enablePan: boolean,

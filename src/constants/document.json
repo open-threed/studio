@@ -3,6 +3,7 @@
   "description": "",
   "helpers": true,
   "axes": false,
+  "customModels": [],
   "orbitalControls": {
     "enableDamping": true,
     "enablePan": true,
