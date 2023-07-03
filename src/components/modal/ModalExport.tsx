@@ -50,7 +50,7 @@ export default function ModalExport() {
     const element = document.createElement("a");
     const textFile = new Blob([JSON.stringify(data, null, 2)]);
     element.href = URL.createObjectURL(textFile);
-    element.download = `${document.title}-${Date.now()}.json`;
+    element.download = `${documentStore.title}-${Date.now()}-threed-studio.json`;
     document.body.appendChild(element); 
     element.click();
   }
