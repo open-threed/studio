@@ -9,6 +9,7 @@ import mountToolbarActions from '../../utils/mountToolbarActions';
 import CONSTANTS from '../../constants';
 import { useSettingsStore } from '../../store/settings';
 import { useElementsStore } from '../../store/elements';
+import { elementsFull } from '@/elements'
 
 import {
   Accordion,
@@ -30,7 +31,7 @@ export default function ToolbarLeft() {
 
   function mountAndCreateElement(type:string) {
     createElement({
-      ...CONSTANTS.elements[type],
+      ...elementsFull[type],
       id: nanoid(6),
       type,
       fileId: ''

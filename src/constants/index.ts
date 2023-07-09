@@ -2,19 +2,19 @@ import general from './general.json'
 import blueprint from './blueprint.json'
 import commands from './commands.json'
 import document from './document.json'
-import baseElements from './elements.json'
 import layout from './layout.json'
-import light from './light.json'
 import models from './models.json'
-import object from './object.json'
 import settings from './settings.json'
 import toolbar from './toolbar.json'
 import tree_theme from './tree_theme.json'
 import materials from './materials.json'
 import textures from './textures.json'
 import sounds from './sounds.json'
+import environment from './environment.json'
 
-import processElements from '../utils/processElements'
+import light from './light.json'
+import object from './object.json'
+
 import { ElementType, GenericType, JsonMaterialsType, ObjectType } from '@/types'
 
 const [key] = Object.entries(materials)[0]
@@ -26,12 +26,6 @@ const material = {
   material: jsonMaterials[key],
   texture: 'none'
 }
-
-const elements = processElements(baseElements, {
-  MATERIAL: material,
-  OBJECT: object,
-  LIGHT: light,
-})
 
 type Command = {
   label: string
@@ -154,6 +148,7 @@ export type ModelsType = string[]
 export type SettingsType = {
   theme: string
   main: string
+  picker: string
   autoSave: boolean
   minimalist: boolean
   performanceMonitor: {
@@ -215,7 +210,6 @@ type ConstantsType = {
   blueprint: Blueprint
   commands: Command[]
   document: DocumentType
-  elements: ElementsType
   layout: LayoutType
   material: MaterialType
   light: LightType
@@ -227,6 +221,7 @@ type ConstantsType = {
   textures: TexturesType
   sounds: SoundsType
   materials: MaterialsType
+  environment: string[]
 }
 
 const CONSTANTS: ConstantsType = {
@@ -234,7 +229,6 @@ const CONSTANTS: ConstantsType = {
   blueprint,
   commands,
   document,
-  elements,
   layout,
   material,
   light,
@@ -246,6 +240,7 @@ const CONSTANTS: ConstantsType = {
   textures,
   sounds,
   materials,
+  environment,
 }
 
 export default CONSTANTS

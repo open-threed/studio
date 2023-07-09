@@ -8,6 +8,8 @@ interface MyState {
   document: DocumentType
   setDocument: (document: DocumentType) => void
   updateDocument: (document: GenericType) => void
+  updateDocumentOrbitalControls: (orbitalControls: GenericType) => void
+  updateDocumentCanvas: (canvas: GenericType) => void
 }
 
 export const useDocumentStore = create<MyState>()(
@@ -17,6 +19,12 @@ export const useDocumentStore = create<MyState>()(
       setDocument: (document) => set({ document }),
       updateDocument: (document) => set({
         document: { ...get().document, ...document }
+      }),
+      updateDocumentOrbitalControls: (orbitalControls) => set({
+        document: { ...get().document, orbitalControls: { ...get().document.orbitalControls, ...orbitalControls } }
+      }),
+      updateDocumentCanvas: (canvas) => set({
+        document: { ...get().document, canvas: { ...get().document.canvas, ...canvas } }
       })
     }),
     {

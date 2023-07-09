@@ -9,6 +9,7 @@ interface MyState {
   setLoadingView: (loadingView: boolean) => void
   setSettings: (settings: SettingsType) => void
   setTheme: (theme: string) => void
+  setPicker: (picker: string) => void
   setView: (main: string) => void
   setToolMove: (move: string) => void
 }
@@ -21,6 +22,7 @@ export const useSettingsStore = create<MyState>()(
       setLoadingView: (loadingView) => set({ loadingView }),
       setSettings: (settings) => set({ settings }),
       setTheme: (theme) => set({ settings: { ...get().settings, theme } }),
+      setPicker: (picker) => set({ settings: { ...get().settings, picker } }),
       setView: (main) => set({ settings: { ...get().settings, main } }),
       setToolMove: (move: string) => {
         set({

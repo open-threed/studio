@@ -1,6 +1,7 @@
 {
   "theme": "dark",
   "main": "view",
+  "picker": "",
   "autoSave": true,
   "minimalist": true,
   "performanceMonitor": {
