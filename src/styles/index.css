@@ -321,6 +321,7 @@ button {
   border-radius: 0;
   box-shadow: none;
   border: none;
+  z-index: 9;
 }
 #leva>div>div {
   width: 100%;
