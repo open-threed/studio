@@ -36,6 +36,7 @@
     "clsx": "^1.2.1",
     "cmdk": "^0.2.0",
     "console-feed": "^3.5.0",
+    "leva": "^0.9.35",
     "lucide-react": "^0.241.0",
     "nanoid": "^4.0.2",
     "r3f-perf": "^7.1.2",

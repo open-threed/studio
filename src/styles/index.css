@@ -304,3 +304,42 @@ button {
 .model-thumb:hover .model-thumb-label {
   opacity: 0.8;
 }
+
+#leva {
+  height: '100%';
+  margin: -10px;
+}
+#leva label {
+  font-size: 13px;
+}
+#leva>div {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+}
+#leva>div>div {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  border: none;
+  overflow-y: unset;
+}
+#leva>div>div>div>div>div:nth-child(1) {
+  margin-bottom: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+#leva {
+  --leva-colors-elevation1: #030712;
+  --leva-colors-elevation2: #030712;
+  --leva-colors-elevation3: #0e1629;
+  /* --leva-colors-accent1: #fff; */
+  /* --leva-colors-accent2: #fff; */
+  /* --leva-colors-accent3: #fff; */
+}

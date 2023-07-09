@@ -1,6 +1,6 @@
 import { IconCopyOff } from '@tabler/icons-react'
-import ELEMENT_TO_ICON from '../../matrix/element_to_icon'
 import { useElementsStore } from '../../store/elements'
+import elementsBase from '@/elements'
 
 import {
   Tooltip,
@@ -37,7 +37,7 @@ export default function Layers() {
             e.preventDefault()
             console.log('Right click');
           }}
-          className="w-full mb-2"
+          className="w-full mb-2 bg-muted text-white"
           onClick={() => {
             if(current?.id === element.id) {
               setCurrent(null)
@@ -47,7 +47,7 @@ export default function Layers() {
           }}
         >
           <div className="mr-2">
-            <Icon name={ELEMENT_TO_ICON[element.type]} />
+            <Icon name={elementsBase[element.type].icon} />
           </div>
           {element.type}
           {!element.editable && <TooltipCopy />}

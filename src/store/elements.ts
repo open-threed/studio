@@ -42,6 +42,7 @@ export const useElementsStore = create<MyState>()(
       }),
       updateElement: (element) => set({
         current: {
+          ...get().current || {},
           ...get().elements.find(({id}) => id===element?.id),
           ...element
         },

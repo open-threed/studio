@@ -151,8 +151,7 @@
         {
           "id": "cone",
           "label": "Cone",
-          "icon": "IconCone",
-          "disable": true
+          "icon": "IconCone"
         },
         {
           "id": "cylinder",
